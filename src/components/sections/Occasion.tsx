@@ -27,7 +27,7 @@ export function Occasion() {
           <h2 className="font-display text-4xl leading-[1.05] font-extrabold md:text-6xl">
             Big Hunger? Big Gathering? We've Got Your Dabba!
           </h2>
-          <p className="mt-5 max-w-xl text-lg leading-relaxed text-white/90 md:text-xl">
+          <p className="mt-5 max-w-xl text-lg font-medium leading-relaxed text-white/90 md:text-xl">
             From everyday office lunches to family celebrations, Namma Dabba is here to make food one less thing to worry about.
           </p>
           <a
@@ -42,7 +42,7 @@ export function Occasion() {
         <FoodImage
           src={occasionImage.src}
           alt={occasionImage.alt}
-          className="aspect-[4/3] w-full rounded-[2rem] border-4 border-white/80 object-cover shadow-2xl"
+          className="aspect-[4/3] max-h-[32rem] w-full rounded-[2rem] border-4 border-white/80 object-cover object-center shadow-2xl"
         />
       </div>
     </section>

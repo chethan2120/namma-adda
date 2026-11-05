@@ -14,14 +14,14 @@ export function About() {
             <FoodImage
               src={aboutImage.src}
               alt={aboutImage.alt}
-              className="relative aspect-[4/3] w-full rounded-[2rem] border-4 border-white object-cover shadow-xl"
+              className="relative aspect-[4/3] max-h-[32rem] w-full rounded-[2rem] border-4 border-white object-cover object-center shadow-xl"
             />
             <TiffinArt className="absolute -right-2 -bottom-6 h-24 w-24 drop-shadow-md sm:h-28 sm:w-28" />
           </div>
         </Reveal>
 
         <Reveal delay={0.08}>
-          <p className="text-sm font-bold tracking-[0.18em] text-tomato uppercase">About Namma Dabba</p>
+          <p className="text-sm font-semibold tracking-[0.18em] text-tomato uppercase">About Namma Dabba</p>
           <h2 className="mt-3 font-display text-4xl leading-[1.05] font-extrabold text-charcoal md:text-6xl">
             A Little Dabba. A Lot of Happiness.
           </h2>
@@ -34,7 +34,7 @@ export function About() {
               Whether you're looking for an everyday meal or food for a special gathering, Namma Dabba brings good food closer to you.
             </p>
           </div>
-          <p className="mt-6 inline-flex rounded-full bg-haldi px-4 py-2 font-bold text-charcoal">
+          <p className="mt-6 inline-flex rounded-full bg-haldi px-4 py-2 font-semibold text-charcoal">
             HSR Layout, Bengaluru
           </p>
         </Reveal>

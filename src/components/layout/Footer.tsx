@@ -13,7 +13,7 @@ export function Footer() {
         </div>
 
         <nav aria-label="Footer">
-          <h2 className="text-xl font-bold text-haldi">Explore</h2>
+          <h2 className="text-xl font-semibold text-haldi">Explore</h2>
           <ul className="mt-4 space-y-2">
             {FOOTER_LINKS.map((link) => (
               <li key={link.href}>
@@ -26,7 +26,7 @@ export function Footer() {
         </nav>
 
         <div>
-          <h2 className="text-xl font-bold text-haldi">Visit & order</h2>
+          <h2 className="text-xl font-semibold text-haldi">Visit & order</h2>
           <address className="mt-4 space-y-2 text-cream/85 not-italic">
             <p>Namma Dabba</p>
             <p>{LOCATION_LINE}</p>
@@ -41,7 +41,7 @@ export function Footer() {
             href={whatsAppUrl()}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-5 inline-flex min-h-12 items-center gap-2 rounded-full bg-haldi px-5 font-bold text-charcoal"
+            className="mt-5 inline-flex min-h-12 items-center gap-2 rounded-full bg-haldi px-5 font-extrabold text-charcoal"
           >
             <WhatsAppIcon />
             WhatsApp Namma Dabba
@@ -49,7 +49,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10">
-        <p className="mx-auto max-w-7xl px-4 py-5 text-sm text-cream/60 md:px-8">
+        <p className="mx-auto max-w-7xl pt-5 pb-24 pl-4 text-sm text-cream/60 md:pr-8 md:pb-20 md:pl-8">
           © {new Date().getFullYear()} Namma Dabba. All rights reserved. Designed and Maintained by{" "}
           <a href="https://webnxt.co/" target="_blank" rel="noopener noreferrer" className="font-semibold text-haldi hover:text-white">
             WebNxt

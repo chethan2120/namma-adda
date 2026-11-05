@@ -21,7 +21,7 @@ const notes = [
 export function Delivery() {
   return (
     <section id="delivery" className="section-anchor bg-cream py-16 md:py-24">
-      <div className="mx-auto grid max-w-7xl gap-4 px-4 md:grid-cols-3 md:px-8">
+      <div className="mx-auto grid max-w-7xl gap-4 px-4 md:grid-cols-2 md:px-8 xl:grid-cols-3">
         {notes.map((note, index) => {
           return (
             <Reveal key={note.title} delay={index * 0.05}>
@@ -31,7 +31,7 @@ export function Delivery() {
                 </span>
                 <div>
                   <h3 className="text-2xl font-extrabold">{note.title}</h3>
-                  <p className="mt-2 whitespace-pre-line leading-relaxed text-charcoal/80">{note.body}</p>
+                  <p className="mt-2 font-medium whitespace-pre-line leading-relaxed text-charcoal/80">{note.body}</p>
                 </div>
               </article>
             </Reveal>

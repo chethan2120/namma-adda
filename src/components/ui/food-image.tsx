@@ -7,9 +7,11 @@ type FoodImageProps = {
   alt: string;
   className?: string;
   priority?: boolean;
+  width?: number;
+  height?: number;
 };
 
-export function FoodImage({ src, alt, className, priority = false }: FoodImageProps) {
+export function FoodImage({ src, alt, className, priority = false, width, height }: FoodImageProps) {
   const [current, setCurrent] = useState(src);
 
   useEffect(() => {
@@ -21,6 +23,8 @@ export function FoodImage({ src, alt, className, priority = false }: FoodImagePr
       src={current}
       alt={alt}
       className={cn(className)}
+      width={width}
+      height={height}
       loading={priority ? "eager" : "lazy"}
       decoding="async"
       fetchPriority={priority ? "high" : "auto"}

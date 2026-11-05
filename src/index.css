@@ -5,8 +5,8 @@
   --color-haldi: #f5c400;
   --color-cream: #fff5d9;
   --color-charcoal: #211c19;
-  --font-display: "Manrope", "Segoe UI", sans-serif;
-  --font-body: "Manrope", "Segoe UI", sans-serif;
+  --font-display: "Nunito", "Segoe UI", sans-serif;
+  --font-body: "Nunito", "Segoe UI", sans-serif;
   --font-logo: "Chewy", "Arial Rounded MT Bold", "Trebuchet MS", sans-serif;
 }
 
@@ -24,8 +24,8 @@
     color: var(--color-charcoal);
     font-family: var(--font-body);
     font-weight: 400;
-    line-height: 1.6;
-    letter-spacing: -0.011em;
+    line-height: 1.65;
+    letter-spacing: -0.01em;
     text-rendering: optimizeLegibility;
   }
 
@@ -35,7 +35,7 @@
   h4 {
     font-family: var(--font-display);
     font-weight: 800;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
   }
 
   button,

@@ -20,7 +20,7 @@ export function Why() {
       <div className="pointer-events-none absolute bottom-0 left-0 h-28 w-28 rounded-full bg-white/40" aria-hidden />
       <div className="relative mx-auto max-w-7xl px-4 md:px-8">
         <Reveal>
-          <p className="text-sm font-bold tracking-[0.18em] uppercase">Why Namma Dabba</p>
+          <p className="text-sm font-semibold tracking-[0.18em] uppercase">Why Namma Dabba</p>
           <h2 className="mt-3 max-w-3xl font-display text-4xl leading-[1.05] font-extrabold md:text-6xl">
             Why You'll Love Our Dabba
           </h2>

@@ -60,7 +60,7 @@ export default function App() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Order on WhatsApp"
-          className="fixed right-4 bottom-4 z-50 inline-flex min-h-14 items-center gap-2 rounded-full bg-[#25D366] px-5 font-bold text-white shadow-[0_8px_24px_rgba(33,28,25,0.28)]"
+          className="fixed right-4 bottom-4 z-50 inline-flex min-h-14 items-center gap-2 rounded-full bg-[#25D366] px-5 font-extrabold text-white shadow-[0_8px_24px_rgba(33,28,25,0.28)]"
         >
           <WhatsAppIcon />
           WhatsApp

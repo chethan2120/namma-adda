@@ -64,11 +64,11 @@ export function Gallery() {
     <section id="gallery" className="section-anchor bg-charcoal py-20 text-cream md:py-28">
       <div className="mx-auto max-w-7xl px-4 md:px-8">
         <Reveal>
-          <p className="text-sm font-bold tracking-[0.18em] text-haldi uppercase">Food photography</p>
+          <p className="text-sm font-semibold tracking-[0.18em] text-haldi uppercase">Food photography</p>
           <h2 className="mt-3 max-w-3xl font-display text-4xl leading-[1.05] font-extrabold md:text-6xl">
             A dabba worth looking at.
           </h2>
-          <p className="mt-4 max-w-2xl text-lg text-cream/75">
+          <p className="mt-4 max-w-2xl text-lg font-medium text-cream/75">
             Real plates from the Namma Dabba kitchen. Hover a link to preview a box, or open any photo and film.
           </p>
           <p className="mt-4">
@@ -126,7 +126,7 @@ export function Gallery() {
               >
                 <source src={video.src} type="video/mp4" />
               </video>
-              <span className="absolute right-3 bottom-3 left-3 text-left text-lg font-bold text-white drop-shadow">
+              <span className="absolute right-3 bottom-3 left-3 text-left text-lg font-semibold text-white drop-shadow">
                 {video.title}
               </span>
             </button>
@@ -157,7 +157,7 @@ export function Gallery() {
                 src={galleryImages[active.index].src}
                 alt={galleryImages[active.index].alt}
                 priority
-                className="max-h-[68vh] w-full rounded-2xl object-contain"
+                className="mx-auto max-h-[min(68vh,40rem)] w-auto max-w-full rounded-2xl object-contain"
               />
               <figcaption className="mt-3 text-center text-cream">{galleryImages[active.index].alt}</figcaption>
               <div className="relative z-10 mt-4 flex justify-center gap-3">

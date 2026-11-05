@@ -44,12 +44,12 @@ export function Navbar() {
   return (
     <header className="fixed inset-x-0 top-0 z-40">
       <div className="border-b border-charcoal/10 bg-cream/90 backdrop-blur-md">
-        <div className="mx-auto flex h-[4.5rem] max-w-7xl items-center justify-between gap-4 px-4 md:px-8">
+        <div className="mx-auto flex h-[4.5rem] max-w-7xl items-center justify-between gap-3 px-4 md:px-8">
           <a href="#home" className="flex shrink-0 items-center" onClick={close}>
             <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="Namma Dabba" className="h-12 w-auto drop-shadow-[0_3px_0_rgba(33,28,25,0.12)] sm:h-14" />
           </a>
 
-          <nav className="hidden items-center gap-5 lg:flex" aria-label="Primary">
+          <nav className="hidden min-w-0 items-center gap-3 xl:gap-5 lg:flex" aria-label="Primary">
             {NAV_LINKS.map((link) => {
               const isActive = active === link.href;
               return (
@@ -58,7 +58,7 @@ export function Navbar() {
                   href={link.href}
                   aria-current={isActive ? "true" : undefined}
                   className={cn(
-                    "relative px-1 py-2 text-base font-semibold text-charcoal hover:text-tomato",
+                    "relative px-1 py-2 text-base font-semibold whitespace-nowrap text-charcoal hover:text-tomato",
                     isActive && "text-tomato",
                   )}
                 >
@@ -80,7 +80,7 @@ export function Navbar() {
               href={whatsAppUrl()}
               target="_blank"
               rel="noopener noreferrer"
-              className={cn(buttonVariants({ variant: "primary", size: "md" }), "hidden sm:inline-flex")}
+              className={cn(buttonVariants({ variant: "primary", size: "md" }), "hidden shrink-0 whitespace-nowrap sm:inline-flex")}
             >
               <WhatsAppIcon />
               ORDER ON WHATSAPP
@@ -119,7 +119,7 @@ export function Navbar() {
                     onClick={close}
                     aria-current={isActive ? "true" : undefined}
                     className={cn(
-                      "relative rounded-2xl px-3 py-3 text-2xl font-bold text-charcoal hover:bg-haldi",
+                      "relative rounded-2xl px-3 py-3 text-2xl font-semibold text-charcoal hover:bg-haldi",
                       isActive && "text-tomato",
                     )}
                   >

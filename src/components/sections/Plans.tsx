@@ -70,7 +70,7 @@ export function Plans() {
           <h2 className="max-w-3xl text-4xl leading-[1.05] font-extrabold text-charcoal md:text-6xl">
             Simple, Affordable Plans
           </h2>
-          <p className="mt-4 max-w-2xl text-lg leading-relaxed text-charcoal/75">
+          <p className="mt-4 max-w-2xl text-lg font-medium leading-relaxed text-charcoal/75">
             No contracts, no hidden fees. Subscribe monthly and save big. Cancel anytime.
           </p>
         </Reveal>
@@ -88,7 +88,7 @@ export function Plans() {
               >
                 <div className="flex flex-wrap items-center gap-2">
                   {plan.popular ? (
-                    <span className="rounded-full bg-tomato px-3 py-1 text-xs font-bold tracking-wide text-white uppercase">
+                    <span className="rounded-full bg-tomato px-3 py-1 text-xs font-semibold tracking-wide text-white uppercase">
                       Most Popular
                     </span>
                   ) : null}
@@ -96,7 +96,7 @@ export function Plans() {
                     <span
                       key={tag}
                       className={cn(
-                        "inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-bold",
+                        "inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-semibold",
                         plan.popular ? "bg-white/10 text-haldi" : "bg-white text-charcoal",
                       )}
                     >
@@ -112,7 +112,7 @@ export function Plans() {
                   <p className={cn("min-h-5 text-sm font-semibold", plan.popular ? "text-cream/70" : "text-charcoal/60")}>
                     {plan.priceLead}
                   </p>
-                  <p className={cn("text-5xl leading-[1.05] font-extrabold tracking-[-0.03em]", plan.popular ? "text-haldi" : "text-tomato")}>
+                  <p className={cn("text-5xl leading-[1.05] font-extrabold tracking-[-0.02em]", plan.popular ? "text-haldi" : "text-tomato")}>
                     {plan.price}
                   </p>
                   <p className={cn("mt-2 font-semibold", plan.popular ? "text-cream/80" : "text-charcoal/70")}>{plan.period}</p>
