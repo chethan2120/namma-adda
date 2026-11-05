@@ -1,0 +1,215 @@
+{
+  "picturesFound": [
+    "AAD00788.JPG",
+    "AAD00789.JPG",
+    "AAD00792.JPG",
+    "AAD00795.JPG",
+    "AAD00799.JPG",
+    "AAD00802.JPG",
+    "AAD00805.JPG",
+    "AAD00807.JPG",
+    "AAD00808.JPG",
+    "AAD00810.JPG",
+    "AAD00811.JPG",
+    "AAD00812.JPG",
+    "AAD00814.JPG",
+    "AAD00815.JPG",
+    "AAD00816.JPG",
+    "AAD00817.JPG",
+    "AAD00818.JPG",
+    "AAD00819.JPG",
+    "AAD00820.JPG",
+    "AAD00821.JPG",
+    "AAD00822.JPG",
+    "AAD00823.JPG",
+    "AAD00824.JPG",
+    "AAD00826.JPG",
+    "AAD00827.JPG",
+    "AAD00828.JPG",
+    "AAD00832.JPG",
+    "AAD00833.JPG",
+    "AAD00834.JPG",
+    "AAD00836.JPG",
+    "AAD00837.JPG",
+    "AAD00838.JPG",
+    "AAD00839.JPG",
+    "AAD00840.JPG",
+    "AAD00841.JPG",
+    "AAD00842.JPG",
+    "AAD00844.JPG",
+    "AAD00845.JPG",
+    "AAD00846.JPG",
+    "AAD00847.JPG",
+    "AAD00848.JPG",
+    "AAD00849.JPG",
+    "AAD00851.JPG",
+    "AAD00857.JPG",
+    "AAD00858.JPG",
+    "AAD00859.JPG",
+    "AAD00860.JPG",
+    "AAD00861.JPG",
+    "AAD00862.JPG",
+    "AAD00863.JPG",
+    "AAD00864.JPG",
+    "AAD00865.JPG",
+    "AAD00869.JPG",
+    "AAD00870.JPG",
+    "AAD00871.JPG",
+    "AAD00874.JPG",
+    "AAD00876.JPG",
+    "AAD00877.JPG",
+    "AAD00878.JPG",
+    "AAD00879.JPG",
+    "AAD00880.JPG",
+    "AAD00881.JPG",
+    "AAD00882.JPG",
+    "AAD00883.JPG"
+  ],
+  "videosFound": [
+    "00000-mts-to-mp4.mp4",
+    "00002-mts-to-mp4.mp4",
+    "00004-mts-to-mp4.mp4",
+    "00005-mts-to-mp4.mp4",
+    "00006-mts-to-mp4.mp4",
+    "00008-mts-to-mp4.mp4",
+    "00010-mts-to-mp4.mp4",
+    "00011-mts-to-mp4.mp4",
+    "00012-mts-to-mp4.mp4",
+    "00013-mts-to-mp4.mp4",
+    "00016-mts-to-mp4.mp4",
+    "00017-mts-to-mp4.mp4",
+    "00018-mts-to-mp4.mp4",
+    "00019-mts-to-mp4.mp4",
+    "00020-mts-to-mp4.mp4",
+    "00021-mts-to-mp4.mp4",
+    "00022-mts-to-mp4.mp4",
+    "00023-mts-to-mp4.mp4",
+    "00024-mts-to-mp4.mp4",
+    "00025-mts-to-mp4.mp4",
+    "00026-mts-to-mp4.mp4",
+    "00027-mts-to-mp4.mp4",
+    "00028-mts-to-mp4.mp4"
+  ],
+  "imagesCopied": [
+    {
+      "file": "AAD00805.jpg",
+      "bytes": 143084
+    },
+    {
+      "file": "AAD00810.jpg",
+      "bytes": 121018
+    },
+    {
+      "file": "AAD00812.jpg",
+      "bytes": 148525
+    },
+    {
+      "file": "AAD00814.jpg",
+      "bytes": 158148
+    },
+    {
+      "file": "AAD00816.jpg",
+      "bytes": 115936
+    },
+    {
+      "file": "AAD00820.jpg",
+      "bytes": 150241
+    },
+    {
+      "file": "AAD00821.jpg",
+      "bytes": 154802
+    },
+    {
+      "file": "AAD00824.jpg",
+      "bytes": 139004
+    },
+    {
+      "file": "AAD00827.jpg",
+      "bytes": 169100
+    },
+    {
+      "file": "AAD00828.jpg",
+      "bytes": 175271
+    },
+    {
+      "file": "AAD00833.jpg",
+      "bytes": 126961
+    },
+    {
+      "file": "AAD00836.jpg",
+      "bytes": 170165
+    },
+    {
+      "file": "AAD00840.jpg",
+      "bytes": 94326
+    },
+    {
+      "file": "AAD00844.jpg",
+      "bytes": 235664
+    },
+    {
+      "file": "AAD00845.jpg",
+      "bytes": 161479
+    },
+    {
+      "file": "AAD00848.jpg",
+      "bytes": 118781
+    },
+    {
+      "file": "AAD00851.jpg",
+      "bytes": 100989
+    },
+    {
+      "file": "AAD00857.jpg",
+      "bytes": 313842
+    },
+    {
+      "file": "AAD00858.jpg",
+      "bytes": 194405
+    },
+    {
+      "file": "AAD00861.jpg",
+      "bytes": 198170
+    },
+    {
+      "file": "AAD00862.jpg",
+      "bytes": 174253
+    },
+    {
+      "file": "AAD00864.jpg",
+      "bytes": 266074
+    },
+    {
+      "file": "AAD00865.jpg",
+      "bytes": 172656
+    }
+  ],
+  "imagesMissing": [],
+  "videos": [
+    {
+      "file": "00000-mts-to-mp4.mp4",
+      "status": "ready",
+      "bytes": 85928,
+      "poster": "00000-mts-to-mp4.jpg"
+    },
+    {
+      "file": "00006-mts-to-mp4.mp4",
+      "status": "ready",
+      "bytes": 272049,
+      "poster": "00006-mts-to-mp4.jpg"
+    },
+    {
+      "file": "00005-mts-to-mp4.mp4",
+      "status": "ready",
+      "bytes": 451482,
+      "poster": "00005-mts-to-mp4.jpg"
+    },
+    {
+      "file": "00021-mts-to-mp4.mp4",
+      "status": "ready",
+      "bytes": 562600,
+      "poster": "00021-mts-to-mp4.jpg"
+    }
+  ],
+  "logo": "written"
+}

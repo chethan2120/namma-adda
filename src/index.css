@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tomato: #f0271d;
+  --color-haldi: #f5c400;
+  --color-cream: #fff5d9;
+  --color-charcoal: #211c19;
+  --font-display: "Manrope", "Segoe UI", sans-serif;
+  --font-body: "Manrope", "Segoe UI", sans-serif;
+  --font-logo: "Chewy", "Arial Rounded MT Bold", "Trebuchet MS", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: clip;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    overflow-x: clip;
+    background: var(--color-cream);
+    color: var(--color-charcoal);
+    font-family: var(--font-body);
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: -0.011em;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font-family: inherit;
+    letter-spacing: inherit;
+  }
+
+  ::selection {
+    background: #f5c400;
+    color: #211c19;
+  }
+
+  :focus-visible {
+    outline: 3px solid #f0271d;
+    outline-offset: 3px;
+  }
+}
+
+.sticker-type {
+  -webkit-text-stroke: 0.035em #211c19;
+  paint-order: stroke fill;
+  letter-spacing: -0.035em;
+}
+
+.section-anchor {
+  scroll-margin-top: 5.5rem;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 28s linear infinite;
+}
+
+.steam-puff {
+  position: absolute;
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.8);
+  filter: blur(1px);
+  animation: steam 2.6s ease-in infinite;
+}
+
+.steam-puff.dark {
+  background: rgba(33, 28, 25, 0.22);
+}
+
+.type-caret {
+  display: inline-block;
+  margin-left: 2px;
+  animation: blink 1s steps(1) infinite;
+}
+
+.reel-track {
+  display: flex;
+  width: max-content;
+}
+
+.reel-right {
+  animation: reel-right 70s linear infinite;
+}
+
+.reel-left {
+  animation: reel-left 60s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes reel-right {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes reel-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes steam {
+  0% {
+    transform: translateY(0) scale(0.55);
+    opacity: 0;
+  }
+  18% {
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateY(-78px) scale(1.5);
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .marquee-track,
+  .reel-right,
+  .reel-left,
+  .steam-puff,
+  .type-caret,
+  .float-y {
+    animation: none !important;
+  }
+}
